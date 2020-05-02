@@ -9,6 +9,7 @@ You need to have **RStudio** installed on your computer
 * Open RStudio and open the project in RStudio i.e. navigate to the file *chasa api.Rproj* in the downloaded folder
 * Open api-index.R in RStudio
 * Highlight all the content in R and click Run
+![](rstudio.png)
 * The API can now be accessed at *http://127.0.0.1:8000* 
 * You can explore the API documention at *http://127.0.0.1:8000/__swagger__/* on your browser
 
