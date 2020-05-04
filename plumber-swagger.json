@@ -19,22 +19,15 @@
         },
         "parameters": [
           {
-            "name": "month",
+            "name": "user_month",
             "description": "The month to predict",
             "in": "query",
             "required": false,
             "type": "string"
           },
           {
-            "name": "located",
+            "name": "user_located",
             "description": "The location name",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "location",
-            "description": "The location id",
             "in": "query",
             "required": false,
             "type": "string"
@@ -42,69 +35,6 @@
           {
             "name": "diseases",
             "description": "The diseases to predict",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "minWindSpeed",
-            "description": "The minWindSpeed value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "windGust",
-            "description": "The windGust value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "minTemp",
-            "description": "The minTemp value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "maxTemp",
-            "description": "The maxTemp value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "meanTemp",
-            "description": "The meanTemp value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "humidity",
-            "description": "The humidity value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "sun",
-            "description": "The sun value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "rain",
-            "description": "The rain value",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "pressure",
-            "description": "The pressure value",
             "in": "query",
             "required": false,
             "type": "string"
